@@ -200,7 +200,7 @@ class Inicio extends React.Component {
         const {refresh} = this.state;
         const {rw} = this.state;
         return (
-            <div className="Container" style={{width:'80%', margin:'20px', padding:'20px', paddingLeft:'30%'}} > 
+            <div className="Container" style={{width:'80%', margin:'20px', padding:'20px', paddingLeft:'30%', color:"white"}} > 
                 <Table striped style={{width:'500px'}}>
                     <tbody>
                         <tr>
@@ -225,6 +225,7 @@ class Inicio extends React.Component {
                                     onChange={this.DinChange}
                                     options={optionsDin} 
                                     defaultValue={optionsDin[0]}
+                                    
                                 />
                             </th>
                             <th>
@@ -272,7 +273,7 @@ class Inicio extends React.Component {
                                         style={{marginTop:"10px"}} alt="Card image cap" />: '':'' :'' }
                             </th>
                         </tr>
-                        <tr>
+                        <tr style={{color:"white"}}>
                             <th><p>Celda {this.state.celda} </p>
                         </th>
                             <th><p>DOUT {this.state.dout ? '1':'0'}</p></th>

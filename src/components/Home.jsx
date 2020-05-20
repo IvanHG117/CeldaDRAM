@@ -14,7 +14,7 @@ class Home extends Component{
                     
                 </Navbar>
                 <br/>
-                <h1 style={{textAlign:'center'}} >Celda DRAM</h1>
+                <h1 style={{textAlign:'center', color:"white"}} >Celda DRAM</h1>
                 <Inicio />
                 
 
@@ -28,7 +28,7 @@ class Home extends Component{
                 </div>
 
                                 
-                <footer class="page-footer font-small blue pt-4" style={{textAlign:"center", paddingLeft:'30%'}}>
+                <footer class="page-footer font-small blue pt-4" style={{textAlign:"center", paddingLeft:'30%', color:"white"}}>
                     <div class="container-fluid text-center text-md-left">
                         <div class="row">
                             <div class="col-md-6 mt-md-0 mt-3" style={{textAlign:"center", paddingRight:'0%'}}>
