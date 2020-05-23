@@ -5,16 +5,23 @@ import axios from 'axios';
 // import { Image} from 'react-native'
 import Select from 'react-select'
 import ac from "../img/ac.jpeg"
-import a000 from "../img/a000.jpg"
-import a001 from "../img/a001.jpg"
-import a01Xa from "../img/a01Xa.jpg"
-import a01Xb from "../img/a01Xb.jpg"
-import a11Xa from "../img/a11Xa.jpg"
-import a11Xb from "../img/a11Xb.jpg"
-import a100 from "../img/a100.jpg"
-import a101 from "../img/a101.jpg"
+//import a000 from "../img/a000.jpg"
+//import a001 from "../img/a001.jpg"
+//import a01Xa from "../img/a01Xa.jpg"
+//import a01Xb from "../img/a01Xb.jpg"
+//import a11Xa from "../img/a11Xa.jpg"
+// import a11Xb from "../img/a11Xb.jpg"
+//import a100 from "../img/a100.jpg"
+//import a101 from "../img/a101.jpg"
 
-
+const a01Xa = "https://media.giphy.com/media/W5ZmLV1eaVp2Yb4IfY/giphy.gif"
+const a101 = "https://media.giphy.com/media/Q80FWZBl1zfsPpvvzp/giphy.gif"
+const a000 = "https://media.giphy.com/media/hvS8hyFBRKNEYg6pTz/giphy.gif"
+const a01Xb = "https://media.giphy.com/media/hTO7bXiouwML7wewbh/giphy.gif"
+const a11Xa = "https://media.giphy.com/media/VJfro2wpfw2cUejEhL/giphy.gif"
+const a001= "https://media.giphy.com/media/QW3p7qK0AcBbEglGK8/giphy.gif"
+const a11Xb = "https://media.giphy.com/media/ie79JsKWvRnfwewU4M/giphy.gif"
+const a100 = "https://media.giphy.com/media/U3guJcXBggrqdWs3te/giphy.gif"
 
 const optionsDin = [
       { value: 0, label: '0' },
